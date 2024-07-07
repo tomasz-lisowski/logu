@@ -1,0 +1,17 @@
+.{
+    .name = "logu",
+    .version = "0.0.1",
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .logz = .{
+            .url = "https://github.com/karlseguin/log.zig/archive/0f42ca099fd69f9cbd09620a7f455db0fa0310cc.tar.gz",
+            .hash = "1220996bf8517c7785a577811f6ee39574c274151a350e2be1896359e878e1ef9aa9",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}
